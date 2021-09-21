@@ -3,13 +3,13 @@ import BalanceBox from './BalanceBox/BalanceBox';
 import './Card.css';
 import NameBox from './NameBox/NameBox';
 
-function Card()
+function Card(props)
 {
 
     return (
         <div className="cardPlace">
 
-            <BalanceBox>1000$</BalanceBox>
+            <BalanceBox>{props.balance + '$'}</BalanceBox>
 
             <NameBox>Москаленко Андрей</NameBox>
 

@@ -3,9 +3,12 @@ import './Button.css';
 
 function Button(props)
 {
+    const clickListner = () =>{
+        props.change(props.number)
+    };
 
     return (
-        <button className='nbbtn'>{props.children}</button>
+        <button className='nbbtn' onClick={clickListner}>{props.children}</button>
     );
 }
 

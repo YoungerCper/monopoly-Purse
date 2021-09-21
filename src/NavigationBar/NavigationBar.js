@@ -2,16 +2,16 @@ import React from 'react';
 import './NavigationBar.css';
 import Button from './Button/Button';
 
-function NavigationBar()
+function NavigationBar(props)
 {
 
     return (
         <div className='NavigationBar'>
             <span className="title">Навигация</span>
-            <Button>Моя карта</Button>
-            <Button>Перевести</Button>
-            <Button>История переводов</Button>
-            <Button>Выйти</Button>
+            <Button change={props.change} number={0}>Моя карта</Button>
+            <Button change={props.change} number={1}>Перевести</Button>
+            <Button change={props.change} number={2}>История переводов</Button>
+            <Button change={props.change} number={3}>Выйти</Button>
         </div>
     );
 }
