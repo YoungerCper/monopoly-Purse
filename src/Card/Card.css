@@ -1,10 +1,11 @@
 .cardPlace{
-    margin: 50px;
+    margin: 5%;
     padding: 25px;
     background-color: #ffffff;
-    border-radius: 25px;
+    border-radius: 25px;   
+    
+    height: 80%;
 
-    width: 100%;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 
     display: flex;

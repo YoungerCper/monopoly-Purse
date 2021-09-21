@@ -1,0 +1,12 @@
+.inputSum{
+    outline: 0 !important;
+    border: 5px solid #004220;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.inBox{
+    height: 100%;
+}

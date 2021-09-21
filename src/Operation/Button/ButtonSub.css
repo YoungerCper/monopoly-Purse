@@ -1,0 +1,17 @@
+.submitBtn{
+    border-radius: 25px;
+    background-color: #00a550;
+
+    padding: 20px;
+    border: none;
+
+    color: #a8ffd2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submitBtn:hover{
+    background-color: #990000;
+    color: #ffcccc;
+}
