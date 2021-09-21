@@ -1,0 +1,16 @@
+.nbbtn{
+    font-size: 16px;
+    color: #313830;
+    outline: 0 !important;
+    background-color: #ffffff;
+    border:none;
+    font-weight: bold;
+
+    text-align: left;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nbbtn:hover{
+    text-decoration: underline;
+}
