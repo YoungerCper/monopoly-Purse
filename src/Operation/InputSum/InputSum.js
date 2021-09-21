@@ -1,12 +1,12 @@
 import React from 'react';
 import './InputSum.css';
 
-function InputSum()
+function InputSum(props)
 {
 
     return(
         <div className='inBox'>
-            <input type='number' className='inputSum'/>
+            <input type={props.type} className='inputSum'/>
         </div>
     );
 }

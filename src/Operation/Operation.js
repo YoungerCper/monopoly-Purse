@@ -13,7 +13,7 @@ function Operation(props)
                 <PlayerList change={props.change} users={props.users}></PlayerList>
             </div>
             <div className='place'>
-                <div className='inputBox'><InputSum></InputSum></div>                
+                <div className='inputBox'><InputSum type='number'></InputSum></div>                
                 <div className='buttonBox'><ButtonSub>Сделать перевод</ButtonSub></div>
             </div>
         </div>
