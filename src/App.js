@@ -32,14 +32,15 @@ function App()
     };
 
     const chargeSearchWord = newWord =>{
-        searchWord = newWord;
+        setQuery(newWord);
     };
 
     const [openBlock, setOpenBlock] = useState(0);
     const [balance, setBalance] = useState(1000);
+    const [query, setQuery] = useState("");
     const searchedUsers = useMemo(
-        ()=>{return users.filter(word => word.toString().toLowerCase().includes(searchWord.toString().toLowerCase()))},
-        [users, searchWord]);    
+        ()=>{return users.filter(word => word.name.toString().toLowerCase().includes(query.toString().toLowerCase()))},
+        [users, query]);    
     
 
     return (
